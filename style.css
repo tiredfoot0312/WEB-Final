@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none; /* 크롬 화살표 없애기 */
+  -moz-appearance: none; /* 파이어폭스 화살표 없애기 */
+  appearance: none; /* 화살표 없애기 */
+  text-align-last: center;
+}
+
+.entire {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 700px;
+  border: 3px solid rgba(145, 247, 213, 0.5);
+  background-color: rgba(145, 247, 213, 0.5);
+  border-radius: 30px;
+}
+
+.menubar {
+  padding: 20px;
+  width: 250px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.texts-list > select {
+  height: 60px;
+  width: 165px;
+  background-color: rgba(76, 186, 219, 0.5);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 0;
+}
+
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.introduce {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+.clear-best-rate {
+  margin-top: 20px;
+  height: 40px;
+  width: 130px;
+  background-color: rgba(76, 186, 219, 0.5);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 0;
+}
+
+.typing {
+  padding: 20px;
+  width: 750px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.set {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-display {
+  width: 700px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.typing-input {
+  width: 700px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 0 13px;
+  font-size: 20px;
+  font-weight: 600;
+}
